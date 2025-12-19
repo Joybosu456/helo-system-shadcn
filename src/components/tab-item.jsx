@@ -2,17 +2,7 @@
 
 import { cn } from "@/lib/utils"
 
-/**
- * TabItem
- *
- * A radio-style tab trigger that mimics the states in the design:
- * - default
- * - active (bold label, underline or border)
- * - filled background
- * - outlined
- * - focus outline
- * - disabled
- */
+
 export function TabItem({
   children,
   variant = "ghost", // "ghost" | "underline" | "filled" | "outline" | "focus-outline"
@@ -29,7 +19,6 @@ export function TabItem({
       className={cn(
         "inline-flex items-center gap-2 rounded-md px-3 py-1.5 text-sm transition-colors",
         "disabled:cursor-not-allowed disabled:text-muted-foreground",
-        // radio circle
         "border-transparent bg-transparent text-foreground",
         variant === "ghost" && !active && "hover:bg-muted",
         variant === "underline" &&

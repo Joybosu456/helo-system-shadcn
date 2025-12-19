@@ -16,22 +16,6 @@ import {
   SidebarMenuSub,
 } from "@/components/ui/sidebar"
 
-/**
- * ParentNavItem
- *
- * A reusable parent navigation item for the shadcn sidebar.
- * - Shows a label with a radio-style indicator (via `isActive`)
- * - Can expand / collapse to show nested items
- *
- * Usage:
- *  <SidebarMenu>
- *    <ParentNavItem label="Title" defaultOpen>
- *      <SidebarMenuSubItem>
- *        <SidebarMenuSubButton isActive>Child</SidebarMenuSubButton>
- *      </SidebarMenuSubItem>
- *    </ParentNavItem>
- *  </SidebarMenu>
- */
 export function ParentNavItem({
   label,
   children,

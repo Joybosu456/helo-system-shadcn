@@ -20,12 +20,10 @@ import {
 export default function FiltersDrawer() {
   return (
     <Sheet>
-      {/* Trigger Button */}
       <SheetTrigger asChild>
         <Button variant="outline">Open Filters</Button>
       </SheetTrigger>
 
-      {/* Drawer */}
       <SheetContent
         side="right"
         className="w-full sm:max-w-md flex flex-col"

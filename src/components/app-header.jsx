@@ -15,7 +15,6 @@ export function AppHeader({ title = "Title", className, ...props }) {
       )}
       {...props}
     >
-      {/* Left side: Checkbox + Title */}
       <div className="flex items-center gap-2">
         <Checkbox id="header-checkbox" />
         <label
@@ -26,7 +25,6 @@ export function AppHeader({ title = "Title", className, ...props }) {
         </label>
       </div>
 
-      {/* Right side: Bell icon + Search bar */}
       <div className="flex items-center gap-3">
         <Button
           variant="ghost"
