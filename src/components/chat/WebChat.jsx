@@ -12,7 +12,7 @@ export default function WebChat() {
           <Avatar>
             <AvatarImage src="https://i.pravatar.cc/40" />
           </Avatar>
-          <span className="font-medium">Manoj Room</span>
+          <span className="font-medium">ABCD</span>
         </div>
 
         <div className="flex gap-4">
